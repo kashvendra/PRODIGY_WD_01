@@ -3,7 +3,7 @@
     <header>
         <section class="nav">
             <div class="logo">
-                <a href="#"><i class="fas fa-utensils"></i>Online Restraunt</a>
+                <a href="#"><i class="fas fa-utensils"></i>Dining | Takeaway | Delivery </a>
             </div>
             <input id="menu-toggle" type="checkbox" />
             <label class="menu-button-container" for="menu-toggle">
@@ -11,9 +11,9 @@
         </label>
             <ul class="menu">
                 <li><a href="#home" class="order">Home</a></li>
-                <li><a href="#speciality" class="order">About</a></li>
-                <li><a href="#popular" class="order">Popular</a></li>
-                <li><a href="#review" class="order">Contact</a></li>
+                <li><a href="#speciality" class="order">Payment</a></li>
+                <li><a href="#popular" class="order">History</a></li>
+                <li><a href="#review" class="order">Help</a></li>
                 <li><a href="#order" class="order">Menu</a></li>
             </ul>
         </section>
@@ -21,20 +21,22 @@
     <section class="home" id="home ">
         <div class="content">
             <h3 class="mainfont">
-                The Ch<span class="yellowColor">ee</span>se Decker
+                The <span class="yellowColor">Hunger</span> Point
             </h3>
             <h3>
-                fastest f<span class="yellowColor">oo</span>d for , instant
-                <span class="yellowColor">Hunger</span>
+                Get your f<span class="blackColor">oo</span>d in 30 min for
+                <span class="yellowColor"> 
+                    Instant Hunger
+                </span>
             </h3>
-            <p>"Welcome to the culinary haven in the heart of Salt Lake, Kolkata, where flavors dance and aromas enchant – our online restaurant is a virtual feast waiting to transport you to a gastronomic delight like no other". 
+            <p>"Welcome to our restaurant, where every dish tells a story and every bite is an experience – where we bring the flavors of our restaurant directly to your doorstep". 
             <br><br>Dont wait anymore click on order right now or go to contacts given above. 
-            <br><br> Located at: Saltlake Sector-5 <br> Open Everyday from 9AM to 10PM</p>
+            <br><br> Located at: Chingrighata Sector-4 <br> Open Everyday from 2PM to 2AM</p>
             <br>
             <a href="# " class="btn">ORDER NOW</a>
         </div>
         <div class="image">
-            <img src="C:\Users\soura\OneDrive\Pictures\Screenshots\2016_09_29_12990_1475116504._large.jpg" alt=" " />
+            <img src="D:\top-view-table-full-delicious-food-composition_23-2149141353.avif" alt=" " />
         </div>
     </section>
 <style>
@@ -57,7 +59,7 @@
     }
     
     body {
-        background: #212531;
+        background: #d71761;
         margin: 0;
     }
     
@@ -67,7 +69,7 @@
     
     a {
         text-decoration: none;
-        color: #000;
+        color: #0a0113;
     }
     
     ul {
@@ -81,7 +83,7 @@
     .logo {
         font-size: 2.5rem;
         font-weight: bolder;
-        color: #666;
+        color: #607f09;
         display: inline-block;
     }
     
@@ -91,7 +93,7 @@
     }
     
     .order {
-        text-shadow: -1px -1px 0 rgb(34, 0, 255), 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px yellow;
+        text-shadow: -1px -1px 0 rgb(98, 77, 234), 1px -1px 0 rgb(246, 246, 167), -1px 1px 0 rgb(55, 255, 248), 1px 1px rgba(79, 127, 182, 0.751);
     }
     
     .nav {
